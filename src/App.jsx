@@ -12,7 +12,7 @@ export default function App() {
   return (
 
     <Container maxWidth="lg" sx={{marginTop:'100px'}}>
-      <Grid2 display='flex' gap={3} flexGrow={1}>
+      <Grid2  container spacing={{ xs: 2, md: 4 }} columns={{ xs: 1, sm: 1, md: 2 }} justifyContent="center" alignItems="center">
         <Card sx={{boxShadow: "none", textAlign: "center", padding: '10px' }} >
 
           <CardMedia
